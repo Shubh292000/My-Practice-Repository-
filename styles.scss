@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .rectangle {
+        padding: 10px;
+        background-color: aquamarine;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        
+        #input-box
+        {
+            align-items: center;
+            width: 150px;
+        }
+        .btn
+        {
+           
+        }
+        .op-btn
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding:10px ;
+        }
+    }
+}
+
+
+
+
+
+
+
